@@ -5,7 +5,7 @@ workflows:
       - test
       
 jobs:
-  build:
+  test:
     docker:
       - image: cimg/node:18.3.0
     steps:
